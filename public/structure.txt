@@ -1,0 +1,61 @@
+public/
+|-- admin/
+|   |-- assets/
+|   |   |-- css/
+|   |   |   |-- styles.css            # Tệp CSS cho giao diện quản trị
+|   |   |
+|   |   |-- js/
+|   |   |   |-- script.js             # Tệp JavaScript cho giao diện quản trị
+|   |   |
+|   |   |-- images/                   # Thư mục chứa hình ảnh cho giao diện quản trị
+|   |
+|   |-- index.php                     # Trang chủ của giao diện quản trị
+|   |-- login.php                     # Trang đăng nhập cho quản trị viên
+|   |-- dashboard.php                 # Trang tổng quan cho quản trị viên
+|   |-- product.php                   # Trang quản lý sản phẩm
+|   |-- order.php                     # Trang quản lý đơn hàng
+|   |-- category.php                  # Trang quản lý danh mục sản phẩm
+|   |-- settings.php                  # Trang cài đặt hệ thống
+|   |-- includes/                     # Thư mục chứa các tệp bao gồm cho giao diện quản trị
+|       |-- header.php                # Phần header cho giao diện quản trị
+|       |-- footer.php                # Phần footer cho giao diện quản trị
+|       |-- sidebar.php               # Thanh bên cho giao diện quản trị
+|
+|-- assets/                           # Thư mục chứa tài nguyên cho giao diện khách hàng
+|   |-- css/
+|   |   |-- styles.css                # Tệp CSS cho giao diện khách hàng
+|   |
+|   |-- js/
+|   |   |-- script.js                 # Tệp JavaScript cho giao diện khách hàng
+|   |
+|   |-- images/                       # Thư mục chứa hình ảnh cho giao diện khách hàng
+|
+|-- uploads/                          # Thư mục để lưu trữ hình ảnh tải lên
+|
+|-- middleware/                       # Thư mục chứa các tệp middleware
+|   |-- authentication.php           # Tệp middleware cho xác thực
+|   |-- authorization.php            # Tệp middleware cho phân quyền
+|
+|
+|-- index.php                     # Trang chủ của giao diện người dùng
+|-- product.php                   # Trang hiển thị sản phẩm cho người dùng
+|-- search.php                    # Trang tìm kiếm sản phẩm cho người dùng
+|-- cart.php                      # Trang giỏ hàng cho người dùng
+|-- checkout.php                  # Trang thanh toán cho người dùng
+|-- includes/                     # Thư mục chứa các tệp bao gồm cho giao diện người dùng
+|   |-- header.php                # Phần header cho giao diện người dùng
+|   |-- sidebar.php               # Thanh bên cho giao diện người dùng
+|   |-- footer.php                # Phần footer cho giao diện người dùng
+|
+|-- dao/                              # Thư mục chứa các tệp dao
+|   |-- category_dao.php              # Tệp dao cho thực thể category
+|   |-- product_dao.php               # Tệp dao cho thực thể product
+|   |-- order_dao.php                 # Tệp dao cho thực thể order
+|   |-- order_detail_dao.php          # Tệp dao cho thực thể order_detail
+|   |-- product_size_dao.php          # Tệp dao cho thực thể product_size
+|
+|-- config/
+|   |-- db.php                        # Tệp cấu hình kết nối đến cơ sở dữ liệu
+|
+|-- .htaccess                         # Tệp cấu hình cho Apache (nếu sử dụng)
+|-- index.php                         # Trang chính điều hướng người dùng đến giao diện phù hợp
